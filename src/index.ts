@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const PORT = process.env.PORT || 3010;
+const PORT = process.env.PORT || 80;
 const app: Express = express();
 
 app.use(helmet());
